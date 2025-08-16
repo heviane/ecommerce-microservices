@@ -1,0 +1,49 @@
+site_name: Testes MkDocs
+site_url: https://heviane.github.io/test-mkdocs/
+site_author: Heviane Bastos
+repo_url: https://github.com/heviane/test-mkdocs
+repo_name: heviane/test-mkdocs
+edit_uri: edit/main/docs/ # Ajuste para apontar para a pasta de documentação
+
+theme:
+  name: material
+  language: pt
+  palette:
+    # Palette toggle for light vs dark mode
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Mudar para modo escuro
+    # Palette toggle for dark vs light mode
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Mudar para modo claro
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+    - content.code.annotate
+
+# É uma boa prática definir explicitamente o diretório dos documentos.
+docs_dir: docs
+
+copyright: Copyright &copy; 2025 Heviane Bastos
+
+plugins:
+  - search
+  - awesome-pages
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true

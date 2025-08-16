@@ -1,0 +1,6 @@
+title: Home
+nav:
+  - Home: index.md
+#  - Guia do Desenvolvedor: developer
+#  - Guia do Usuário: user
+  - ...
