@@ -23,7 +23,7 @@ O sistema será composto por dois microserviços:
 
 ## Diagrama
 
-[![Diagrama de Arquitetura](./images/arquitetura.png)](https://github.com/heviane/test-mkdocs)
+[![Diagrama de Arquitetura](./images/arquitetura.png)](https://github.com/heviane/ecommerce-microservices)
 
 ## Arquitetura Proposta
 

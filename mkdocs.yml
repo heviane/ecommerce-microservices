@@ -1,8 +1,8 @@
 site_name: Testes MkDocs
-site_url: https://heviane.github.io/test-mkdocs/
+site_url: https://heviane.github.io/ecommerce-microservices/
 site_author: Heviane Bastos
-repo_url: https://github.com/heviane/test-mkdocs
-repo_name: heviane/test-mkdocs
+repo_url: https://github.com/heviane/ecommerce-microservices
+repo_name: heviane/ecommerce-microservices
 edit_uri: edit/main/docs/ # Ajuste para apontar para a pasta de documentação
 
 theme:
