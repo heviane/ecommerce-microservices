@@ -1,2 +1,45 @@
-# Mac
+## Arquivos específicos do usuário e do ambiente de desenvolvimento
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+## Pastas e arquivos gerados pelo Visual Studio, VS Code e Rider
+.vs/
+.idea/
+*.sln.opts
+*.csproj.user
+
+## Resultados da compilação (Build)
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Bb]in/
+[Oo]bj/
+
+## Arquivos de log
+[Ll]og/
+[Ll]ogs/
+*.log
+
+## Pacotes e dependências
+/packages/
+/node_modules/
+
+## Arquivos de configuração que não devem ir para o repositório
+# (Contêm segredos ou configurações específicas da máquina de desenvolvimento)
+appsettings.Development.json
+secrets.json
+
+## Outros
+/TestResults/
+/publish/
+
+# Pasta local/pessoal de estudos e anotações sobre o projeto
+/temp
+
+# Arquivos do sistema operacional (macOS)
 .DS_Store

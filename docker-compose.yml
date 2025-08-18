@@ -1,0 +1,18 @@
+version: "3.8"
+
+services:
+  sqlserver:
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    container_name: ecommerce-sql-server
+    environment:
+      - ACCEPT_EULA=Y
+      # ATENÇÃO: Senha para ambiente de desenvolvimento. Use uma senha forte em produção.
+      - SA_PASSWORD=yourStrong(!)Password123
+    ports:
+      - "1433:1433"
+    volumes:
+      - sqlserver_data:/var/opt/mssql
+
+volumes:
+  sqlserver_data:
+    driver: local

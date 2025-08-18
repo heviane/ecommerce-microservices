@@ -11,7 +11,9 @@ Todas as alterações notáveis a este projeto serão documentadas neste arquivo
 ### ➕ Adicionado
 
 - Criado o primeiro aplicativo de console "Hello World" em C# dentro do diretório `src/`.
-- Definida a estrutura de diretórios principal com as pastas `src` e `docs` para melhor organizar o projeto.
+- `docs`:
+  - Adicionado Guia de Configuração do Ambiente para orientar novos desenvolvedores.
+- Adicionado `docker-compose.yml` para facilitar a inicialização do SQL Server em ambiente de desenvolvimento.
 
 ### ✏️ Alterado
 
@@ -27,4 +29,11 @@ Todas as alterações notáveis a este projeto serão documentadas neste arquivo
 
 - Estrutura inicial do projeto.
 - `README.md` com a descrição e propósito do repositório.
-- `LICENSE.md` com a licença Creative Commons BY-NC-SA 4.0.
+- `LICENSE` com a licença MIT.
+- Definida a estrutura de diretórios principal com as pastas `src` e `docs` para melhor organizar o projeto.
+- `docs`:
+  - Configurado pipeline de CI/CD com GitHub Actions para build e deploy automático da documentação (MkDocs) no GitHub Pages.
+  - Adicionado Guia de Configuração do Ambiente para orientar novos desenvolvedores.
+  - Adicionado `docker-compose.yml` para facilitar a inicialização do SQL Server em ambiente de desenvolvimento.
+- `src`:
+  - Utilização de SQL Server via container Docker.
